@@ -55,10 +55,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6FD03BD460C2666C0917AC9F /* SampleCode.xcconfig */ = {isa = PBXFileReference; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+		6FD03BD460C2666C0917AC9F /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		B0B8C3EB2BDC3D0900704A2C /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		B0C7C5452BF5DA0900ECE452 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
-		BA5D813EE652D2B6F9AA7B35 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
 		C200227C2988392F00732240 /* Entity+Sunlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entity+Sunlight.swift"; sourceTree = "<group>"; };
 		C200227E29883B3900732240 /* GlobeSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeSettings.swift; sourceTree = "<group>"; };
 		C20197A329E3D9C900C6A20F /* SatelliteEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatelliteEntity.swift; sourceTree = "<group>"; };
@@ -119,15 +118,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5054F77D55BBBCDEC076AB73 /* LICENSE */ = {
-			isa = PBXGroup;
-			children = (
-				BA5D813EE652D2B6F9AA7B35 /* LICENSE.txt */,
-			);
-			name = LICENSE;
-			path = .;
-			sourceTree = "<group>";
-		};
 		C22CF1A829721FB100CF2EB7 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,7 +148,6 @@
 				C2A837602A25286A00AD11D6 /* Packages */,
 				C22D1AEF28EB403400CE0F8F /* Products */,
 				E043781D4066DB10F3A83C6E /* Configuration */,
-				5054F77D55BBBCDEC076AB73 /* LICENSE */,
 			);
 			sourceTree = "<group>";
 		};
