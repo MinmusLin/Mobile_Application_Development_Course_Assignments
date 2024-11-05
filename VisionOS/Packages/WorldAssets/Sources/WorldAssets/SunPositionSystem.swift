@@ -11,7 +11,7 @@ import SwiftUI
 
 public struct SunPositionComponent: Component, Codable {
     var sunAngleRadians: Float = 0
-    
+
     public init(_ sunAngle: Float) {
         sunAngleRadians = sunAngle
     }
@@ -19,9 +19,9 @@ public struct SunPositionComponent: Component, Codable {
 
 public struct SunPositionSystem: System {
     static let query = EntityQuery(where: .has(SunPositionComponent.self))
-    
+
     public init(scene: RealityKit.Scene) {}
-    
+
     public func update(context: SceneUpdateContext) {
         for entity in context.entities(matching: Self.query, updatingSystemWhen: .rendering) {
             guard let component = entity.sunPositionComponent else {
@@ -49,18 +49,18 @@ public extension Entity {
         get { components[SunPositionComponent.self] }
         set { components[SunPositionComponent.self] = newValue }
     }
-    
+
     var modelComponent: ModelComponent? {
         get { components[ModelComponent.self] }
         set { components[ModelComponent.self] = newValue }
     }
-    
+
     /// Finds all decendant entites with a model component.
     ///
     /// - Returns: An array of decendant entities that have a model component.
     func getModelDescendents() -> [Entity] {
         var descendents = [Entity]()
-        
+
         for child in children {
             if child.components[ModelComponent.self] != nil {
                 descendents.append(child)

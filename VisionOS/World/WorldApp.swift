@@ -52,7 +52,7 @@ struct WorldApp: App {
         }
         .immersionStyle(selection: $solarImmersionStyle, in: .full)
     }
-    
+
     init() {
         // Register all the custom components and systems that the app uses.
         RotationComponent.registerComponent()

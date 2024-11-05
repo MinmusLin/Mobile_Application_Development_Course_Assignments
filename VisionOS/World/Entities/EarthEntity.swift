@@ -123,7 +123,7 @@ class EarthEntity: Entity {
         // Indicate the position of the sun for use in turning the ground
         // lights on and off.
         earth.sunPositionComponent = SunPositionComponent(Float(configuration.sunAngle.radians))
-        
+
         // Set a static rotation of the tilted Earth, driven from the configuration.
         rotator.orientation = configuration.rotation
 

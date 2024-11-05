@@ -31,7 +31,7 @@ extension SatelliteEntity {
                 altitude: 0.4,
                 isTraceVisible: true)
         }
-        
+
         static var orbitMoonDefault: Configuration {
             .init(
                 name: "Moon",
@@ -42,7 +42,7 @@ extension SatelliteEntity {
                 altitude: 1.25,
                 initialRotation: .degrees(90))
         }
-        
+
         static var solarTelescopeDefault: Configuration {
             .init(
                 name: "Telescope",

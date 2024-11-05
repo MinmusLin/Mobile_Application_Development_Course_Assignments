@@ -24,7 +24,7 @@ struct SolarSystem: View {
                 scale: 50,
                 position: model.solarSunPosition
             )
-            
+
             Starfield()
         }
         .onAppear {

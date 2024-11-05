@@ -11,7 +11,7 @@ import WorldAssets
 
 /// A satellite entity.
 class SatelliteEntity: Entity {
-    
+
     // MARK: - Sub-entities
 
     private var satellite = Entity()
@@ -49,7 +49,7 @@ class SatelliteEntity: Entity {
         // The satellite model that draws an optional trace.
         box.addChild(satellite)
     }
-    
+
     func update(
         configuration: Configuration,
         speed: Float,

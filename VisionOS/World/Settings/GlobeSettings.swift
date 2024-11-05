@@ -13,7 +13,7 @@ struct GlobeSettings: View {
 
     var body: some View {
         @Bindable var model = model
-        
+
         VStack {
             Text("Globe module debug settings", comment: "The title of the settings presented to the viewer.")
                 .font(.title)

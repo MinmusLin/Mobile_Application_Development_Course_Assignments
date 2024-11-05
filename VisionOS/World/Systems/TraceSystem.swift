@@ -86,12 +86,12 @@ extension TraceMesh {
         uvs.removeAll(keepingCapacity: true)
         var updatedPositions = [SIMD3<Float>]()
         let rowCount = positions.count
-        
+
         _ = stride(from: 0, to: positions.endIndex, by: 2).map { row in
             let leftPosition = positions[row]
             let rightPosition = positions[row + 1]
             let fractionalValue = Float(row) / Float(rowCount)
-           
+
             uvs.append([fractionalValue, 0])
             uvs.append([fractionalValue, 1])
 
@@ -101,7 +101,7 @@ extension TraceMesh {
             updatedPositions.append(center + (directionVector) * (fractionalValue * 0.004))
         }
         positions = updatedPositions
-        
+
         // Limit the trace length.
         if positions.count > Self.maxIndexCount {
             positions.removeFirst(2)
@@ -142,7 +142,7 @@ extension ModelEntity {
         var material = UnlitMaterial(color: .white)
         material.opacityThreshold = 0
         material.blending = .transparent(opacity: .init(texture: traceMap))
-       
+
         return ModelEntity(mesh: try .generate(from: contents),
                            materials: [material])
     }
