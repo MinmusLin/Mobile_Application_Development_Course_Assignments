@@ -141,6 +141,41 @@
         }
       }
     },
+    "About Me" : {
+      "comment" : "The subtitle of the About Me module.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Über mich"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "À propos de moi"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自己紹介"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "내 소개"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "关于我"
+          }
+        }
+      }
+    },
     "All planets in the solar system orbit within 3°–7° of this plane." : {
       "comment" : "An educational fact displayed in the Solar System module.",
       "localizations" : {
@@ -277,6 +312,41 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "地球绕太阳运行，地轴倾斜会导致一个半球在半年内获得更多光照。"
+          }
+        }
+      }
+    },
+    "Bachelor’s Degree in Software Engineering, Specialization in Machine Intelligence, School of Computer Science and Technology, Tongji University." : {
+      "comment" : "Detail text explaining the About Me module.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bachelor in Softwaretechnik, Spezialisierung auf Maschinenintelligenz, Fakultät für Informatik und Technik, Tongji-Universität."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Licence en génie logiciel, spécialisation en intelligence artificielle, École d'informatique et de technologie, Université Tongji."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "同済大学 コンピュータ科学技術学院 ソフトウェア工学学士（機械知能専攻）。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "동지대학 컴퓨터과학 및 기술 학부 소프트웨어 공학 학사 (기계 지능 전공)."
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "同济大学计算机科学与技术学院软件工程专业机器智能方向本科在读。"
           }
         }
       }
@@ -698,6 +768,41 @@
         }
       }
     },
+    "I’m Jishen Lin, an undergraduate student majoring in Software Engineering with a focus on Machine Intelligence at the School of Computer Science and Technology, Tongji University.\n\nI am passionate about full-stack development and committed to practicing elegant engineering solutions.\n\nI enjoy collaborating with diverse teams to explore cutting-edge technologies and solve real-world problems through innovative and efficient solutions.\n\nWith experience in full-stack development, AI research, and open-source projects, I am always seeking new challenges and opportunities to learn and grow.\n\nFeel free to reach out if you’d like to discuss ideas or explore new possibilities in tech innovation!" : {
+      "comment" : "Educational text displayed in the Objects in About Me module.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ich bin Jishen Lin, ein Student der Softwaretechnik mit Schwerpunkt auf maschineller Intelligenz an der Fakultät für Informatik und Technik der Tongji-Universität.\n\nIch begeistere mich für Full-Stack-Entwicklung und setze mich für elegante technische Lösungen ein.\n\nIch arbeite gerne mit diversen Teams zusammen, um neueste Technologien zu erforschen und reale Probleme durch innovative und effiziente Lösungen zu lösen.\n\nMit Erfahrungen in der Full-Stack-Entwicklung, KI-Forschung und Open-Source-Projekten suche ich stets nach neuen Herausforderungen und Lernmöglichkeiten.\n\nKontaktieren Sie mich gerne, wenn Sie Ideen besprechen oder neue Möglichkeiten der technischen Innovation erkunden möchten!"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je suis Jishen Lin, étudiant en licence en ingénierie logicielle avec une spécialisation en intelligence artificielle à l'école d'informatique et de technologie de l'Université Tongji.\n\nJe suis passionné par le développement full-stack et engagé dans la pratique de solutions techniques élégantes.\n\nJ'aime collaborer avec des équipes diversifiées pour explorer des technologies de pointe et résoudre des problèmes réels par des solutions innovantes et efficaces.\n\nAvec de l'expérience en développement full-stack, en recherche IA et en projets open-source, je recherche toujours de nouveaux défis et des opportunités pour apprendre et évoluer.\n\nN'hésitez pas à me contacter si vous souhaitez discuter d'idées ou explorer de nouvelles possibilités en innovation technologique !"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "私は林継申です。ソフトウェア工学を専攻し、機械知能を専門とする同済大学の学部生です。\n\nフルスタック開発に情熱を持ち、優雅なエンジニアリングソリューションの実践に努めています。\n\n多様なチームと協力し、最先端技術を探求し、革新的で効率的な解決策を通じて現実の問題を解決することを楽しんでいます。\n\nフルスタック開発、AI研究、オープンソースプロジェクトの経験を持ち、常に新しい挑戦と学習・成長の機会を探しています。\n\nテクノロジー革新においてアイデアを議論したり、新しい可能性を探求したりしたい場合は、ぜひご連絡ください！"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "저는 소프트웨어 공학을 전공하고 기계 지능을 중점적으로 공부하는 동지대학의 학부생인 린지셴입니다.\n\n저는 풀스택 개발에 열정적이며 우아한 엔지니어링 솔루션을 실천하는 데 헌신하고 있습니다.\n\n다양한 팀과 협력하여 최첨단 기술을 탐구하고 혁신적이고 효율적인 솔루션을 통해 실제 문제를 해결하는 것을 즐깁니다.\n\n풀스택 개발, AI 연구 및 오픈 소스 프로젝트 경험을 통해 항상 새로운 도전과 학습 및 성장을 추구합니다.\n\n기술 혁신에서 아이디어를 논의하거나 새로운 가능성을 탐구하고 싶으시면 언제든지 연락 주세요!"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我是林继申，同济大学计算机科学与技术学院软件工程专业机器智能方向本科在读。\n\n我热衷于全栈开发，追求优雅的工程实践。\n\n我喜欢与多元化团队合作，探索前沿技术，通过创新和高效的解决方案解决现实问题。\n\n拥有全栈开发、人工智能研究和开源项目经验，我始终在寻找新的挑战和学习成长的机会。\n\n如果您想讨论想法或探索技术创新的新可能性，请随时联系我！"
+          }
+        }
+      }
+    },
     "Inclination" : {
       "comment" : "A slider control to change the inclination of the satellite's orbit.",
       "localizations" : {
@@ -729,6 +834,41 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "轨道倾角"
+          }
+        }
+      }
+    },
+    "Jishen Lin" : {
+      "comment" : "The title of a module in the app.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jishen Lin"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jishen Lin"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jishen Lin"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jishen Lin"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "林继申"
           }
         }
       }
@@ -2157,76 +2297,6 @@
         }
       }
     },
-    "The Moon orbits the Earth in an elliptical orbit. It’s the most visible object in our sky, but it’s farther from us than you might think: on average, it’s about 385,000 kilometers away!\n\nMost satellites orbit Earth in a tighter orbit — some only a few hundred miles above Earth’s surface. Satellites in lower orbits circle us faster: the Hubble Telescope is approximately 534 kilometers from Earth and completes almost 15 orbits in a day, while geostationary satellites circle Earth just once in 24 hours from about 36,000 kilometers away.\n\nGet up close with different types of orbits to learn how these objects move in space relative to Earth." : {
-      "comment" : "Educational text displayed in the Objects in Orbit module.",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Der Mond kreist auf einer elliptischen Umlaufbahn um die Erde. Er ist das sichtbarste Objekt am Firmament, aber weiter entfernt, als du vielleicht denkst: Im Durchschnitt befindet er sich in einer Entfernung von ca. 385.000 Kilometer von der Erde!\n\nDie meisten Satelliten kreisen auf einer engeren Umlaufbahn um die Erde – einige sogar nur ein paar Hundert Kilometer über der Erdoberfläche. Satelliten in erdnahen Umlaufbahnen umkreisen uns schneller: Das Hubble-Weltraumteleskop ist ungefähr 534 Kilometer von der Erde entfernt und kreist fast 15 Mal pro Tag um die Erde. Geostationäre Satelliten hingegen umrunden die Erde nur einmal in 24 Stunden aus einer Höhe von ca. 36.000 Kilometer über der Erdoberfläche.\n\nSieh dir die verschiedenen Arten von Umlaufbahnen genauer an und erfahre mehr darüber, wie sich diese Objekte relativ zur Erde im All bewegen."
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "La Lune gravite autour de la Terre sur un axe elliptique. S’il s’agit de l’objet céleste le plus visible dans notre ciel, la Lune est pourtant bien plus lointaine qu’il n’y paraît. En effet, en moyenne, elle se trouve à 385 000 km de nous !\n\nLa plupart des satellites gravitent autour de la Terre sur une orbite plus proche : certains d’entre eux ne se trouvent qu’à quelques centaines de kilomètres au-dessus de la surface terrestre. Les satellites évoluant sur des orbites plus basses tournent autour de nous plus rapidement. Par exemple, le télescope Hubble se trouve approximativement à 534 km de la Terre et effectue près de 15 révolutions par jour, tandis que les satellites géostationnaires, situés à environ 36 000 km de la Terre, n’effectuent qu’une seule révolution terrestre en 24 heures.\n\nExplorez les différents types d’orbites pour en savoir plus sur la rotation des objets célestes à travers l’espace et autour de la Terre."
-          }
-        },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "月は、楕円軌道を通って地球の周りを公転しています。月は、上空で一番よく見える物体ですが、思った以上に距離は離れています。平均38万5千キロ離れています。\n\nほとんどの衛星の地球周回軌道はもっと小さいものです。中には、地表から数百マイルしか離れていないものもあります。低軌道の衛星はより速く地球を一周します。ハッブル望遠鏡は、地球から約534キロ離れていて、1日にほぼ15周します。一方、静止衛星は3万6千キロの上空にあり、24時間に1回のみ1周します。\n\n他の種類の軌道に近付いて、宇宙空間でこれらの物体が地球と比較してどのように移動しているのかを学びましょう。"
-          }
-        },
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "달은 지구 주변을 타원 궤도로 공전합니다. 달은 우리 하늘에서 가장 눈에 잘 보이는 천체이지만 생각보다는 먼 거리에 있습니다. 지구와 달 사이의 거리는 약 385,000킬로미터에 달합니다.\n\n위성은 대체로 더 가까운 범위에서 공전합니다. 일부는 지표면에서 수백 킬로미터밖에 안되는 거리에 있는데, 궤도가 우리와 가까울수록 공전 주기가 더 짧습니다. 지구에서 534킬로미터 떨어진 허블 망원경은 하루에 거의 15회 공전하는 반면, 지구에서 36,000킬로미터 떨어진 정지궤도 위성의 경우 24시간 동안 지구를 딱 한 바퀴 돕니다.\n\n각기 다른 유형의 궤도를 가까이 관찰하면서 위성 및 기타 물체가 지구 주변의 공간에서 어떻게 움직이는지 자세히 알아보세요."
-          }
-        },
-        "zh_CN" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "月球在椭圆轨道上绕地球运行。它是天空中最易观测到的天体，但与我们的距离可能比你想象中更远：地月平均距离约达385,000公里！\n\n大多数卫星绕地球运行的轨道直径更小，部分卫星距地球表面仅有数百英里。卫星轨道较低则绕地运行速度更快：哈珀望远镜距地球约534公里，每天绕地球近15次，而同步卫星远在36,000公里之外，24小时仅绕地球一次。\n\n近距离观察不同轨道类型，了解相对于地球，这些天体如何在宇宙中运行。"
-          }
-        }
-      }
-    },
-    "The Solar System" : {
-      "comment" : "The title of a module in the app.",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Das Sonnensystem"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Le Système solaire"
-          }
-        },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "太陽系"
-          }
-        },
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "태양계"
-          }
-        },
-        "zh_CN" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "太阳系"
-          }
-        }
-      }
-    },
     "The moon orbits at some distance from the earth." : {
       "comment" : "Describes an attribute of the Earth model.",
       "localizations" : {
@@ -2262,6 +2332,41 @@
         }
       }
     },
+    "The Moon orbits the Earth in an elliptical orbit. It’s the most visible object in our sky, but it’s farther from us than you might think: on average, it’s about 385,000 kilometers away!\n\nMost satellites orbit Earth in a tighter orbit — some only a few hundred miles above Earth’s surface. Satellites in lower orbits circle us faster: the Hubble Telescope is approximately 534 kilometers from Earth and completes almost 15 orbits in a day, while geostationary satellites circle Earth just once in 24 hours from about 36,000 kilometers away.\n\nGet up close with different types of orbits to learn how these objects move in space relative to Earth." : {
+      "comment" : "Educational text displayed in the Objects in Orbit module.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Mond kreist auf einer elliptischen Umlaufbahn um die Erde. Er ist das sichtbarste Objekt am Firmament, aber weiter entfernt, als du vielleicht denkst: Im Durchschnitt befindet er sich in einer Entfernung von ca. 385.000 Kilometer von der Erde!\n\nDie meisten Satelliten kreisen auf einer engeren Umlaufbahn um die Erde – einige sogar nur ein paar Hundert Kilometer über der Erdoberfläche. Satelliten in erdnahen Umlaufbahnen umkreisen uns schneller: Das Hubble-Weltraumteleskop ist ungefähr 534 Kilometer von der Erde entfernt und kreist fast 15 Mal pro Tag um die Erde. Geostationäre Satelliten hingegen umrunden die Erde nur einmal in 24 Stunden aus einer Höhe von ca. 36.000 Kilometer über der Erdoberfläche.\n\nSieh dir die verschiedenen Arten von Umlaufbahnen genauer an und erfahre mehr darüber, wie sich diese Objekte relativ zur Erde im All bewegen."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La Lune gravite autour de la Terre sur un axe elliptique. S’il s’agit de l’objet céleste le plus visible dans notre ciel, la Lune est pourtant bien plus lointaine qu’il n’y paraît. En effet, en moyenne, elle se trouve à 385 000 km de nous !\n\nLa plupart des satellites gravitent autour de la Terre sur une orbite plus proche : certains d’entre eux ne se trouvent qu’à quelques centaines de kilomètres au-dessus de la surface terrestre. Les satellites évoluant sur des orbites plus basses tournent autour de nous plus rapidement. Par exemple, le télescope Hubble se trouve approximativement à 534 km de la Terre et effectue près de 15 révolutions par jour, tandis que les satellites géostationnaires, situés à environ 36 000 km de la Terre, n’effectuent qu’une seule révolution terrestre en 24 heures.\n\nExplorez les différents types d’orbites pour en savoir plus sur la rotation des objets célestes à travers l’espace et autour de la Terre."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "月は、楕円軌道を通って地球の周りを公転しています。月は、上空で一番よく見える物体ですが、思った以上に距離は離れています。平均38万5千キロ離れています。\n\nほとんどの衛星の地球周回軌道はもっと小さいものです。中には、地表から数百マイルしか離れていないものもあります。低軌道の衛星はより速く地球を一周します。ハッブル望遠鏡は、地球から約534キロ離れていて、1日にほぼ15周します。一方、静止衛星は3万6千キロの上空にあり、24時間に1回のみ1周します。\n\n他の種類の軌道に近付いて、宇宙空間でこれらの物体が地球と比較してどのように移動しているのかを学びましょう。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "달은 지구 주변을 타원 궤도로 공전합니다. 달은 우리 하늘에서 가장 눈에 잘 보이는 천체이지만 생각보다는 먼 거리에 있습니다. 지구와 달 사이의 거리는 약 385,000킬로미터에 달합니다.\n\n위성은 대체로 더 가까운 범위에서 공전합니다. 일부는 지표면에서 수백 킬로미터밖에 안되는 거리에 있는데, 궤도가 우리와 가까울수록 공전 주기가 더 짧습니다. 지구에서 534킬로미터 떨어진 허블 망원경은 하루에 거의 15회 공전하는 반면, 지구에서 36,000킬로미터 떨어진 정지궤도 위성의 경우 24시간 동안 지구를 딱 한 바퀴 돕니다.\n\n각기 다른 유형의 궤도를 가까이 관찰하면서 위성 및 기타 물체가 지구 주변의 공간에서 어떻게 움직이는지 자세히 알아보세요."
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "月球在椭圆轨道上绕地球运行。它是天空中最易观测到的天体，但与我们的距离可能比你想象中更远：地月平均距离约达385,000公里！\n\n大多数卫星绕地球运行的轨道直径更小，部分卫星距地球表面仅有数百英里。卫星轨道较低则绕地运行速度更快：哈珀望远镜距地球约534公里，每天绕地球近15次，而同步卫星远在36,000公里之外，24小时仅绕地球一次。\n\n近距离观察不同轨道类型，了解相对于地球，这些天体如何在宇宙中运行。"
+          }
+        }
+      }
+    },
     "The poles indicated." : {
       "comment" : "Describes an attribute of the Earth model.",
       "localizations" : {
@@ -2293,6 +2398,41 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "标明地极。"
+          }
+        }
+      }
+    },
+    "The Solar System" : {
+      "comment" : "The title of a module in the app.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Sonnensystem"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le Système solaire"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "太陽系"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "태양계"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "太阳系"
           }
         }
       }
@@ -2572,6 +2712,41 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "查看外太空"
+          }
+        }
+      }
+    },
+    "View Video" : {
+      "comment" : "An action the viewer can take in the About Me module.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Video ansehen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voir la vidéo"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ビデオを見る"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "비디오 보기"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "观看视频"
           }
         }
       }

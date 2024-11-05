@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		162D2B2C2CDA60C1000BFADC /* AboutMeToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162D2B2A2CDA60C1000BFADC /* AboutMeToggle.swift */; };
+		162D2B2D2CDA60C1000BFADC /* AboutMeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162D2B292CDA60C1000BFADC /* AboutMeModule.swift */; };
+		162D2B2E2CDA60C1000BFADC /* AboutMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162D2B282CDA60C1000BFADC /* AboutMe.swift */; };
 		B0B8C3EC2BDC3D0900704A2C /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = B0B8C3EB2BDC3D0900704A2C /* Localizable.xcstrings */; };
 		B0C7C5462BF5DA0900ECE452 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = B0C7C5452BF5DA0900ECE452 /* InfoPlist.xcstrings */; };
 		C200227D2988392F00732240 /* Entity+Sunlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = C200227C2988392F00732240 /* Entity+Sunlight.swift */; };
@@ -55,6 +58,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		162D2B282CDA60C1000BFADC /* AboutMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMe.swift; sourceTree = "<group>"; };
+		162D2B292CDA60C1000BFADC /* AboutMeModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeModule.swift; sourceTree = "<group>"; };
+		162D2B2A2CDA60C1000BFADC /* AboutMeToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeToggle.swift; sourceTree = "<group>"; };
 		6FD03BD460C2666C0917AC9F /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		B0B8C3EB2BDC3D0900704A2C /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		B0C7C5452BF5DA0900ECE452 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
@@ -118,6 +124,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		162D2B2B2CDA60C1000BFADC /* About Me */ = {
+			isa = PBXGroup;
+			children = (
+				162D2B282CDA60C1000BFADC /* AboutMe.swift */,
+				162D2B292CDA60C1000BFADC /* AboutMeModule.swift */,
+				162D2B2A2CDA60C1000BFADC /* AboutMeToggle.swift */,
+			);
+			path = "About Me";
+			sourceTree = "<group>";
+		};
 		C22CF1A829721FB100CF2EB7 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +182,7 @@
 				C2DEDA222996F5ED00F5265B /* Modules */,
 				C25774D929E23F7400A75567 /* Globe */,
 				C25774DF29E2404500A75567 /* Orbit */,
+				162D2B2B2CDA60C1000BFADC /* About Me */,
 				C25774DC29E23FD000A75567 /* Solar System */,
 				C2A51FB229AB2E5800217068 /* RealityViews */,
 				C22CF1A829721FB100CF2EB7 /* Entities */,
@@ -385,7 +402,9 @@
 			files = (
 				C2D21553294D210B00634A99 /* Globe.swift in Sources */,
 				C25EFB7029DE7D1500D3CBB6 /* Entity+Trace.swift in Sources */,
+				162D2B2E2CDA60C1000BFADC /* AboutMe.swift in Sources */,
 				C25AD07D29EC6C1E0012834D /* EarthEntity.swift in Sources */,
+				162D2B2D2CDA60C1000BFADC /* AboutMeModule.swift in Sources */,
 				C200227F29883B3900732240 /* GlobeSettings.swift in Sources */,
 				C205CF952919C70D0067444C /* Starfield.swift in Sources */,
 				C2A823602A859109006F6AFF /* OrbitToggle.swift in Sources */,
@@ -413,6 +432,7 @@
 				C2A0F2B029D115150009D46C /* SettingsButton.swift in Sources */,
 				C22D1AF228EB403400CE0F8F /* WorldApp.swift in Sources */,
 				C2E652D62919EBAB007934BC /* ViewModel.swift in Sources */,
+				162D2B2C2CDA60C1000BFADC /* AboutMeToggle.swift in Sources */,
 				C25774D629E219FE00A75567 /* DragRotationModifier.swift in Sources */,
 				C2B0AEED2994B35600021509 /* RotationSystem.swift in Sources */,
 				C2B0AEEF2994B39300021509 /* TraceSystem.swift in Sources */,
