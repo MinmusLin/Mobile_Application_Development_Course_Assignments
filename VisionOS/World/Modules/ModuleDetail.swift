@@ -39,6 +39,8 @@ struct ModuleDetail: View {
                                 .accessibilitySortPriority(2)
                         case .solar:
                             SolarSystemToggle()
+                        case .about:
+                            AboutMeToggle()
                         }
                     }
                     .frame(width: textWidth, alignment: .leading)
@@ -73,6 +75,7 @@ extension Module {
         case .globe: GlobeModule()
         case .orbit: OrbitModule()
         case .solar: SolarSystemModule()
+        case .about: AboutMeModule()
         }
     }
 }
@@ -94,6 +97,13 @@ extension Module {
 #Preview("Solar System") {
     NavigationStack {
         ModuleDetail(module: .solar)
+            .environment(ViewModel())
+    }
+}
+
+#Preview("About Me") {
+    NavigationStack {
+        ModuleDetail(module: .about)
             .environment(ViewModel())
     }
 }

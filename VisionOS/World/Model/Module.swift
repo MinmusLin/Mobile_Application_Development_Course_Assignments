@@ -10,7 +10,7 @@ import Foundation
 
 /// A description of the modules that the app can present.
 enum Module: String, Identifiable, CaseIterable, Equatable {
-    case globe, orbit, solar
+    case globe, orbit, solar, about
     var id: Self { self }
     var name: String { rawValue.capitalized }
 
@@ -22,6 +22,8 @@ enum Module: String, Identifiable, CaseIterable, Equatable {
             String(localized: "Our Nearby Neighbors", comment: "The subtitle of the Objects in Orbit module.")
         case .solar:
             String(localized: "Soaring Through Space", comment: "The subtitle of the Solar System module.")
+        case .about:
+            String(localized: "About Me", comment: "The subtitle of the About Me module.")
         }
     }
 
@@ -33,6 +35,8 @@ enum Module: String, Identifiable, CaseIterable, Equatable {
             String(localized: "Objects in Orbit", comment: "The title of a module in the app.")
         case .solar:
             String(localized: "The Solar System", comment: "The title of a module in the app.")
+        case .about:
+            String(localized: "Jishen Lin", comment: "The title of a module in the app.")
         }
     }
 
@@ -44,6 +48,8 @@ enum Module: String, Identifiable, CaseIterable, Equatable {
             String(localized: "Get up close with different types of orbits to learn more about how satellites and other objects move in space relative to the Earth.", comment: "Detail text explaining the Objects in Orbit module.")
         case .solar:
             String(localized: "Take a trip to the solar system and watch how the Earth, Moon, and its satellites are in constant motion rotating around the Sun.", comment: "Detail text explaining the Solar System module.")
+        case .about:
+            String(localized: "Bachelor’s Degree in Software Engineering, Specialization in Machine Intelligence, School of Computer Science and Technology, Tongji University.", comment: "Detail text explaining the About Me module.")
         }
     }
 
@@ -55,6 +61,8 @@ enum Module: String, Identifiable, CaseIterable, Equatable {
             String(localized: "The Moon orbits the Earth in an elliptical orbit. It’s the most visible object in our sky, but it’s farther from us than you might think: on average, it’s about 385,000 kilometers away!\n\nMost satellites orbit Earth in a tighter orbit — some only a few hundred miles above Earth’s surface. Satellites in lower orbits circle us faster: the Hubble Telescope is approximately 534 kilometers from Earth and completes almost 15 orbits in a day, while geostationary satellites circle Earth just once in 24 hours from about 36,000 kilometers away.\n\nGet up close with different types of orbits to learn how these objects move in space relative to Earth.", comment: "Educational text displayed in the Objects in Orbit module.")
         case .solar:
             String(localized: "Every 365¼ days, Earth and its satellites completely orbit the Sun — the star that anchors our solar system. It’s a journey of about 940 million kilometers a year!\n\nOn its journey, the Earth moves counter-clockwise in a slightly elliptical orbit. It travels a path called the ecliptic plane — an important part of how we navigate through our solar system.\n\nWant to explore Earth’s orbit in detail? Take a trip to the solar system and watch how Earth and its satellites move around the Sun.", comment: "Educational text displayed in the Solar System module.")
+        case .about:
+            String(localized: "I’m Jishen Lin, an undergraduate student majoring in Software Engineering with a focus on Machine Intelligence at the School of Computer Science and Technology, Tongji University.\n\nI am passionate about full-stack development and committed to practicing elegant engineering solutions.\n\nI enjoy collaborating with diverse teams to explore cutting-edge technologies and solve real-world problems through innovative and efficient solutions.\n\nWith experience in full-stack development, AI research, and open-source projects, I am always seeking new challenges and opportunities to learn and grow.\n\nFeel free to reach out if you’d like to discuss ideas or explore new possibilities in tech innovation!", comment: "Educational text displayed in the Objects in About Me module.")
         }
     }
 
@@ -63,6 +71,7 @@ enum Module: String, Identifiable, CaseIterable, Equatable {
         case .globe: String(localized: "View Globe", comment: "An action the viewer can take in the Planet Earth module.")
         case .orbit: String(localized: "View Orbits", comment: "An action the viewer can take in the Objects in Orbit module.")
         case .solar: String(localized: "View Outer Space", comment: "An action the viewer can take in the Solar System module.")
+        case .about: String(localized: "View Video", comment: "An action the viewer can take in the About Me module.")
         }
     }
 

@@ -17,6 +17,7 @@ struct WorldApp: App {
     // The immersion styles for different modules.
     @State private var orbitImmersionStyle: ImmersionStyle = .mixed
     @State private var solarImmersionStyle: ImmersionStyle = .full
+    @State private var aboutImmersionStyle: ImmersionStyle = .mixed
 
     var body: some Scene {
         // The main window that presents the app's modules.
@@ -51,6 +52,13 @@ struct WorldApp: App {
                 .environment(model)
         }
         .immersionStyle(selection: $solarImmersionStyle, in: .full)
+
+        // An immersive Space that shows the self-introduction video.
+        ImmersiveSpace(id: Module.about.name) {
+            AboutMe()
+                .environment(model)
+        }
+        .immersionStyle(selection: $aboutImmersionStyle, in: .mixed)
     }
 
     init() {

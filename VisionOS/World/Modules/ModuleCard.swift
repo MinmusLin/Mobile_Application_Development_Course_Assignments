@@ -37,6 +37,7 @@ struct ModuleCard: View {
         ModuleCard(module: .globe)
         ModuleCard(module: .orbit)
         ModuleCard(module: .solar)
+        ModuleCard(module: .about)
     }
     .padding()
     .glassBackgroundEffect()

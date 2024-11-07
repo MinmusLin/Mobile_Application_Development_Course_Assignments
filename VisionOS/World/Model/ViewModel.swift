@@ -10,7 +10,7 @@ import SwiftUI
 /// The data that the app uses to configure its views.
 @Observable
 class ViewModel {
-    
+
     // MARK: - Navigation
     var navigationPath: [Module] = []
     var titleText: String = ""
@@ -41,4 +41,7 @@ class ViewModel {
          0,
          Float(solarSunDistance * cos(solarEarth.sunAngle.radians))]
     }
+
+    // MARK: - About Me
+    var isShowingAboutMe: Bool = false
 }

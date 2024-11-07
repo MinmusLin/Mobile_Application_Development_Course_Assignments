@@ -42,7 +42,7 @@ struct Modules: View {
                 if model.isShowingGlobe {
                     dismissWindow(id: Module.globe.name)
                 }
-                if model.isShowingOrbit || model.isShowingSolar {
+                if model.isShowingOrbit || model.isShowingSolar || model.isShowingAboutMe {
                     Task {
                         await dismissImmersiveSpace()
                     }
