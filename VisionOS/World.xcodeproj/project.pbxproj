@@ -10,6 +10,7 @@
 		162D2B2C2CDA60C1000BFADC /* AboutMeToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162D2B2A2CDA60C1000BFADC /* AboutMeToggle.swift */; };
 		162D2B2D2CDA60C1000BFADC /* AboutMeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162D2B292CDA60C1000BFADC /* AboutMeModule.swift */; };
 		162D2B2E2CDA60C1000BFADC /* AboutMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162D2B282CDA60C1000BFADC /* AboutMe.swift */; };
+		16B4F6BF2CDCF7E100557774 /* SelfIntroduction.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 16B4F6BE2CDCF7E100557774 /* SelfIntroduction.mp4 */; };
 		B0B8C3EC2BDC3D0900704A2C /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = B0B8C3EB2BDC3D0900704A2C /* Localizable.xcstrings */; };
 		B0C7C5462BF5DA0900ECE452 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = B0C7C5452BF5DA0900ECE452 /* InfoPlist.xcstrings */; };
 		C200227D2988392F00732240 /* Entity+Sunlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = C200227C2988392F00732240 /* Entity+Sunlight.swift */; };
@@ -61,6 +62,7 @@
 		162D2B282CDA60C1000BFADC /* AboutMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMe.swift; sourceTree = "<group>"; };
 		162D2B292CDA60C1000BFADC /* AboutMeModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeModule.swift; sourceTree = "<group>"; };
 		162D2B2A2CDA60C1000BFADC /* AboutMeToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeToggle.swift; sourceTree = "<group>"; };
+		16B4F6BE2CDCF7E100557774 /* SelfIntroduction.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = SelfIntroduction.mp4; sourceTree = "<group>"; };
 		6FD03BD460C2666C0917AC9F /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		B0B8C3EB2BDC3D0900704A2C /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		B0C7C5452BF5DA0900ECE452 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
@@ -263,6 +265,7 @@
 			children = (
 				C22D1AF528EB403600CE0F8F /* Assets.xcassets */,
 				C20A898E2A37D93C004E8608 /* Sunlight.skybox */,
+				16B4F6BE2CDCF7E100557774 /* SelfIntroduction.mp4 */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -388,6 +391,7 @@
 				C20A898F2A37D93C004E8608 /* Sunlight.skybox in Resources */,
 				B0C7C5462BF5DA0900ECE452 /* InfoPlist.xcstrings in Resources */,
 				C22D1AF928EB403600CE0F8F /* Preview Assets.xcassets in Resources */,
+				16B4F6BF2CDCF7E100557774 /* SelfIntroduction.mp4 in Resources */,
 				B0B8C3EC2BDC3D0900704A2C /* Localizable.xcstrings in Resources */,
 				C22D1AF628EB403600CE0F8F /* Assets.xcassets in Resources */,
 			);
