@@ -15,11 +15,19 @@ A collection of my mobile application development course assignments.
 
 ## 仓库组成
 
+* [App Development with Swift - Certified User](AppDevelopmentWithSwift_CertifiedUser)
+App Development with Swift - Certified User 认证考试
+
 * [Memorize](Memorize)
 记忆游戏
 
 * [VisionOS](VisionOS)
 个人介绍应用
+
+## 相关仓库
+
+* [Atlas.Y iOS Application](https://github.com/MinmusLin/Atlas.Y_iOS_Application)
+Atlas.Y：用于优化酵母菌亚细胞定位的分子标签设计软件（iOS 应用程序）
 
 ## 免责声明
 
@@ -29,4 +37,4 @@ The code and materials contained in this repository are intended for personal le
 
 ## 文档更新日期
 
-2024年11月4日
+2024年12月21日
