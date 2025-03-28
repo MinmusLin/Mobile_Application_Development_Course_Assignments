@@ -26,7 +26,7 @@ App Development with Swift - Certified User 认证考试
 
 ## 相关仓库
 
-* [Atlas.Y iOS Application](https://github.com/MinmusLin/Atlas.Y_iOS_Application)
+* [Atlas.Y iOS Application](https://github.com/Tongji-Software-2024/Atlas.Y_iOS_Application)
 Atlas.Y：用于优化酵母菌亚细胞定位的分子标签设计软件（iOS 应用程序）
 
 ## 免责声明
