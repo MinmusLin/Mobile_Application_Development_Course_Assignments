@@ -9,10 +9,10 @@
 
 A collection of my mobile application development course assignments.
 
-2024年同济大学移动应用开发课程作业合集。
+2024 年同济大学移动应用开发课程作业合集。
 
 > ***Relevant course***
-> * Mobile Application Development 2024 (2024年同济大学移动应用开发)
+> * Mobile Application Development 2024 (2024 年同济大学移动应用开发)
 
 ## 仓库组成
 
